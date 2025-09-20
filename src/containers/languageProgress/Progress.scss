@@ -1,0 +1,100 @@
+@import "../../_globalColor";
+
+.meter {
+  height: 20px;
+  position: relative;
+  background: $progressBarBackground;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: $progressBarSpanBG;
+  position: relative;
+  overflow: hidden;
+}
+.skill {
+  line-height: 3.5vw;
+  
+}
+
+.skills-container {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+.skills-container > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.skills-image > img {
+  margin-left: 80px;
+  max-width: 90%;
+  height: auto;
+}
+
+/* Media Query */
+
+@media (max-width: 1456px) {
+  .skills-bar {
+    line-height: 4rem;
+  }
+  .skills-image {
+    display: none;
+    order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+  }
+  .skills-bar {
+    line-height: 3rem;
+    margin: 20px;
+  }
+  .skills-image {
+    display: none;
+    order: 2;
+  }}
+
+  /* Add this to your Progress.scss file */
+
+.skill {
+  display: flex; /* This is the key property */
+  align-items: center; /* This will vertically align them */
+  // justify-content: space-between; /* Optional: This pushes them to opposite ends of the container */
+// iwantt them spaced  ut not pushed to the ends
+  gap: 300px; /* Optional: Adds some space between the title and level */  
+}
+
+
+
+.skill-level {
+  /* You can add styling for the level here */
+  // list-style: none; /* Removes the default bullet point from the <li> */
+  margin: 0; /* Resets default list margins */
+  padding: 0;
+}
+
+/* Add this to your Progress.scss file */
+
+.skill {
+  display: flex; /* This is the key property */
+  justify-content: space-between; /* Optional: This pushes them to opposite ends of the container */
+}
+
+
+
+.skill-level {
+  margin: 1; /* Resets default list margins */
+  padding: 0;
+}

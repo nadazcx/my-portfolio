@@ -23,10 +23,11 @@ const greeting = {
   username: "Nada Zammit Chatti",
   title: "Hi all, I'm Nada",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A hybrid software engineer 🚀 who can build everything from software and websites to full data pipelines."
   ),
+
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MtQxiQTjTi5rs4aUJOf8ESxMIcuttfjp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,12 +35,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/nadazcx",
-  linkedin: "https://www.https://www.linkedin.com/in/nadazc/.com/in/nada/",
+  linkedin: "https://www.linkedin.com/in/nadazc/",
   gmail: "zcnadaa@gmail.com",
-  gitlab: "https://gitlab.com/12",
-  facebook: "https://www.facebook.com/12.7",
-  medium: "https://medium.com/@12",
-  stackoverflow: "https://stackoverflow.com/users/12/12",
+  // gitlab: "https://gitlab.com/12",
+  // facebook: "https://www.facebook.com/12.7",
+  // medium: "https://medium.com/@12",
+  // stackoverflow: "https://stackoverflow.com/users/12/12",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY ENGINEER WHO WANTS TO EXPLORE EVERY NEW TECHNOLOGY",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Develop full-stack web applications with modern frameworks like React and Node.js"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build cloud-native solutions with Azure and implement DevOps practices with Docker and CI/CD tools"
     )
   ],
 
@@ -72,10 +73,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -88,10 +86,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -104,9 +99,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
+   
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "python",
@@ -126,42 +122,62 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Higher National Engineering School of Tunis",
+      logo: require("./assets/images/ensitLogo.png"),
+      subHeader: "Engineering Degree in Computer Science",
+      duration: "September 2022 - June 2025",
+      desc: "Specialized in software engineering and data systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "Focus on full-stack development and data engineering",
+        "Courses in advanced algorithms, distributed systems, and cloud computing"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "College Science and Technology Sousse",
+      logo: require("./assets/images/essthsLogo.png"),
+      subHeader: "Preparatory School in Mathematics and Physics",
+      duration: "September 2020 - July 2022",
+      desc: "Intensive program in mathematics and physics as preparation for engineering studies.",
+      // descBullets: [""]
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
+const languages = {
+  viewSkillBars: true, 
+  experience: [
+ 
+    {
+      Stack: "French",
+      level:" C2",
+    }
+    ,
+    {
+      Stack: "English",
+      level:" C1",
+    },
+      {
+      Stack: "Arabic",
+      level:"Native",
+    }
+  ],
+  displayCodersrank: false 
+};
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
+    // {
+    //   Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    //   progressPercentage: "90%" //Insert relative proficiency in percentage
+    // },
     {
       Stack: "Backend",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Data Engineering",
       progressPercentage: "60%"
     }
   ],
@@ -170,33 +186,32 @@ const techStack = {
 
 // Work experience section
 
+
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Intern",
+      company: "Telnet",
+      companylogo: require("./assets/images/telnetLogo.png"), // You'll need to add this image
+      date: "February 2025 – May 2025",
+      desc: "Designed and implemented a distributed WiFi performance testing system with Django REST API and React frontend.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built Django REST API backend integrating iperf3, ping, and custom network tests",
+        "Developed React frontend with real-time visualization of network KPIs using Chart.js",
+        "Implemented ELK Stack for log aggregation and real-time dashboards"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Engineering Intern",
+      company: "Hutshinson",
+      companylogo: require("./assets/images/hutshinsonLogo.png"), // You'll need to add this image
+      date: "July 2024 – August 2024",
+      desc: "Automated ETL pipelines and developed monitoring applications for data processing workflows.",
+      descBullets: [
+        "Automated ETL pipelines using Talend, processing 15GB+ daily data with 98% reduction in manual handling",
+        "Developed NestJS application with REST API endpoints to trigger Talend jobs and monitor execution status"
+      ]
     }
   ]
 };
@@ -205,36 +220,35 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Collaborative, Freelance, and Personal Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/heartLink.png"),
+      projectName: "HeartLink",
+      projectDesc: "HeartLink is an advanced mobile application powered by Kotlin and Spring frameworks, enhanced with machine learning capabilities to accurately predict cardiovascular attacks. It seamlessly integrates with a dedicated device to collect real-time health data, offering a comprehensive approach to monitoring and preventing heart-related issues.",
       footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bezbez.png"),
+      projectName: "BezBez",
+      projectDesc: "BezBez is a mobile applicatin developed using Django and ionic dedicated to small buisnesses, enabling them to create and manage their online stores with ease. It offers a user-friendly platform for businesses to showcase their products, handle transactions, and reach a wider audience through a seamless mobile experience.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "See Github",
+          url: "https://github.com/hadily/bezbez-app"
         }
       ]
     }
@@ -246,59 +260,45 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji(" Certifications 🏆 "),
+  // subtitle:
+  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Microsoft Certified: Azure Fundamentals",
+    subtitle:
+        "Earned Microsoft certification demonstrating foundational knowledge of cloud services and Azure.",
+      // image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Azure Fundamentals Certification Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "CCNA Networking",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Achieved Cisco Certified Network Associate (CCNA) certification.",
+      // imageAlt: "CCNA Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   // name: "View Google Assistant Action",
+        //   // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
+      ]
+    },
+    {
+      title: "Snowflake: Hands-On Essentials: Data Warehousing Workshop",
+    subtitle:
+        "Earned Snowflake certification demonstrating foundational knowledge of data warehousing concepts and practices.",
+      // image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Azure Fundamentals Certification Logo",
+      footerLink: [
+        
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -372,11 +372,10 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "nada70@gmail.com"
+  number: "+216 25 020 291",
+  email_address: "nadazc@outlook.fr"
 };
 
-// Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
@@ -403,5 +402,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  languages
 };
