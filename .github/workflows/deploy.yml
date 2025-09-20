@@ -26,10 +26,10 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: CI=false npm run build  # 👈 avoid warnings failing build
+        run: CI=false npm run build  # 👈 avoids treating warnings as errors
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.REACT_APP_GITHUB_TOKEN }}  # 👈 using your PAT secret
           publish_dir: ./build
