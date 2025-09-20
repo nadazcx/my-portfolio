@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2ea65d78.css",
-    "main.js": "/my-portfolio/static/js/main.346e9b57.js",
+    "main.js": "/my-portfolio/static/js/main.cd11a610.js",
     "static/css/64.bba8fa55.chunk.css": "/my-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/my-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/my-portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/my-portfolio/static/js/769.bda0d7b7.chunk.js",
-    "static/media/resume.pdf": "/my-portfolio/static/media/resume.bd1855537d6be3330c97.pdf",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.756d7ac13a233565c1b6.pdf",
     "static/media/Montserrat-Regular.ttf": "/my-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/bezbez.png": "/my-portfolio/static/media/bezbez.e87d9c6b09754b847296.png",
     "static/media/Agustina.woff": "/my-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -18,7 +18,7 @@
     "static/media/skill.svg": "/my-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/my-portfolio/index.html",
     "main.2ea65d78.css.map": "/my-portfolio/static/css/main.2ea65d78.css.map",
-    "main.346e9b57.js.map": "/my-portfolio/static/js/main.346e9b57.js.map",
+    "main.cd11a610.js.map": "/my-portfolio/static/js/main.cd11a610.js.map",
     "64.bba8fa55.chunk.css.map": "/my-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/my-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/my-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.2ea65d78.css",
-    "static/js/main.346e9b57.js"
+    "static/js/main.cd11a610.js"
   ]
 }
